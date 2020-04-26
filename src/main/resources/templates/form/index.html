@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarea 3</title>
+
+</head>
+
+<body>
+	<form method="post" th:action="@{/validar}">
+	<h1>Ingrese sus datos</h1>
+		<input type="text" name="name" id="name" placeholder="Nombre"><br>
+		<input type="text" name="lastname" id="lastname" placeholder="Apellido"><br>
+		<input type="date" name="date" id="date" placeholder="Fecha" required><br>
+		<input type="text" name="place" id="place" placeholder="Lugar de Nacimiento"><br>
+		<input type="text" name="institute" id="institute" placeholder="Lugar de Estudio"><br>
+		<input type="text" name="tel" id="tel" placeholder="Telefono Fijo"><br>
+		<input type="text" name="cel" id="cel" placeholder="Telefono Movil"><br> 
+		<input type="submit" value="Validar">
+	</form>
+</body>
+
+</html>
